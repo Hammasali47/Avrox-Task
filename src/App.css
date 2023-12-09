@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.table-container {
+  max-height: 500px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+.custom-table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
